@@ -8,6 +8,11 @@ body,
 :root {
   height: 100%;
 }
+
+.decorado{
+  text-decoration-skip-ink: none;
+  text-combine-upright: all;
+}
  
 @layer base {
   :root {

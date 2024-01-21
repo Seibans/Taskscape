@@ -9,13 +9,13 @@ const MarketingLayout = ({
 	return (
 		<div className="h-full bg-slate-100">
 			<NavBar/>
-			<main className="pt-40 pb-20 bg-slate-100">
+			{/* TODO: Estaba con pt-40 */}
+			<main className="pt-20 pb-20 bg-slate-100">
 			{children}
 			</main>
 			<Footer/>
 		</div>
 	);
-
 };
 
 export default MarketingLayout;
